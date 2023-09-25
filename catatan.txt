@@ -1,0 +1,18 @@
+npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev
+npm i react-router-dom@6
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install -D prettier prettier-plugin-tailwindcss (https://github.com/tailwindlabs/prettier-plugin-tailwindcss) (tambahkan file prettier.config.cjs)
+npm i @reduxjs/toolkit react-redux
+npm i redux-devtools-extension
+
+
+
+CATATAN
+1. folder services untuk API
+2. folder features untuk komponen
+3. ingat Fetching itu mirip seperti Navigation contoh casenya di UpdateOrder bandingnya dengann CreateOrder.
+
+4. INGAT BAHWA SLICER UNTUK MANIPULASI DATA DOM HTML, SEDANGKAN FOLDER services SERTA ACTION PADA App.jsx ITU UNTUK MANIPULASI DATA GET CREATE UPDATE DAN DELETE API
+
+PAHAM PAHAM BETUL NDOOO BACANYA
